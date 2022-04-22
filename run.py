@@ -52,3 +52,6 @@ def main():
             print("welcome")
             print("enter user name")
             default_user_name = input()
+            
+            print("Enter password")
+            default_user_password = input()
