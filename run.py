@@ -26,4 +26,13 @@ def main():
                 print('Enter your password!')
                 created_user_password = input()
                 print('Confirm your password!')
+                confirm_password = input()
+                
+            else:
+                print('Congratulations{created_user_name}! Passwords do not match!')
+                print('Invalid password! Passwords do not match!')
+                print('Invalid password! Passwords do not match!')
+                print('Invalid password! Passwords do not match!')
+                
+        
             
