@@ -56,3 +56,13 @@ def main():
             print("Enter password")
             default_user_password = input()
             print('/n')
+            
+            while default_user_name != 'testuser' or default_user_password != '09876':
+                print("Wrong username or password. Username 'testuser' and password '09876'")
+                print("Enter username")
+                default_user_name = input()
+                
+                print("Enter password")
+                default_user_password = input()
+                print('/n')
+                
