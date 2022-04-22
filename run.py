@@ -42,5 +42,9 @@ def main():
                 print('Username!')
                 entered_username =input()
                 print('Your password!') 
-                entered_password =input()      
+                entered_password =input()
+                
+            else:
+                print(f"welcome:{entered_username} to your account")
+                print('/n')      
             
