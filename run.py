@@ -29,10 +29,14 @@ def main():
                 confirm_password = input()
                 
             else:
-                print('Congratulations{created_user_name}! Passwords do not match!')
-                print('Invalid password! Passwords do not match!')
-                print('Invalid password! Passwords do not match!')
-                print('Invalid password! Passwords do not match!')
+                print('Congratulations{created_user_name}! Account creation successful!')
+                print('/n')
+                print('Proceed to log in!')
+                print('Username!')
+                entered_username = input()
+                print("your password")
+                entered_password = input()
                 
+            while
         
             
