@@ -40,5 +40,7 @@ def main():
             while entered_username != created_user_name or entered_password != created_user_password: 
                 print('Invalid username or password!')
                 print('Username!')
-                print('Your password!')       
+                entered_username =input()
+                print('Your password!') 
+                entered_password =input()      
             
