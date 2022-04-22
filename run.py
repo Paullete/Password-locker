@@ -66,3 +66,8 @@ def main():
                 default_user_password = input()
                 print('/n')
                 
+            else:
+                print("Login succesful")
+                print('/n')
+                print('/n')
+                
