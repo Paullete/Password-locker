@@ -2,9 +2,9 @@ from json.tool import main
 import random
 from user import User
 
-ief main():
+def main():
     
-while True:
+ while True:
         print("welcome to password locker!!!")
         print('/n')
         print("Select a short code to navigte through:to create new user use 'nu':To login to your account 'lg' or 'ex' to exit")
@@ -20,3 +20,7 @@ while True:
             
             print('confirm password')
             confirm_password = input()
+            
+            while confirm_password != created_user_password:
+                print('Invalid password! Passwords do not match!')
+            
